@@ -1,0 +1,52 @@
+[
+  {
+    "Id": "d3b6f47e-5e6a-4f0c-9119-2e7cfdd56ea9",
+    "FirstName": "John",
+    "LastName": "Doe",
+    "DateOfBirth": "2001-04-15",
+    "Email": "john.doe@example.com",
+    "PhoneNumber": "123-456-7890",
+    "Address": "123 Elm Street, Springfield",
+    "Gender": "Male"
+  },
+  {
+    "Id": "8b3f65d9-1c4e-42b8-a576-5bba8dd5d65c",
+    "FirstName": "Jane",
+    "LastName": "Smith",
+    "DateOfBirth": "2002-08-21",
+    "Email": "jane.smith@example.com",
+    "PhoneNumber": "987-654-3210",
+    "Address": "456 Oak Avenue, Riverside",
+    "Gender": "Female"
+  },
+  {
+    "Id": "2a1d4b6e-5c9f-4a3b-9c9a-1b7de36ea781",
+    "FirstName": "Alice",
+    "LastName": "Johnson",
+    "DateOfBirth": "2000-11-05",
+    "Email": "alice.johnson@example.com",
+    "PhoneNumber": "555-123-4567",
+    "Address": "789 Pine Lane, Meadowville",
+    "Gender": "Female"
+  },
+  {
+    "Id": "a1e3f76b-4d5c-48bf-9f4a-7d2ca93de4fa",
+    "FirstName": "Michael",
+    "LastName": "Brown",
+    "DateOfBirth": "1999-02-12",
+    "Email": "michael.brown@example.com",
+    "PhoneNumber": "444-987-6543",
+    "Address": "321 Cedar Road, Brookside",
+    "Gender": "Male"
+  },
+  {
+    "Id": "e7c5d62a-8b1f-4d6b-93fa-2a7be49fc18d",
+    "FirstName": "Emily",
+    "LastName": "Davis",
+    "DateOfBirth": "2003-06-30",
+    "Email": "emily.davis@example.com",
+    "PhoneNumber": "333-654-0987",
+    "Address": "654 Willow Court, Hilltop",
+    "Gender": "Female"
+  }
+]

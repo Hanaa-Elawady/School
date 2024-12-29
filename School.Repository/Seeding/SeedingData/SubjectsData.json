@@ -1,0 +1,32 @@
+[
+  {
+    "Id": "d3b6f47e-5e6a-4f0c-9119-2e7cfdd56ea9",
+    "Name": "Mathematics",
+    "CreditHours": 3,
+    "Description": "An advanced subject covering algebra, calculus, and geometry."
+  },
+  {
+    "Id": "8b3f65d9-1c4e-42b8-a576-5bba8dd5d65c",
+    "Name": "Physics",
+    "CreditHours": 4,
+    "Description": "A subject focused on the principles of mechanics, thermodynamics, and electromagnetism."
+  },
+  {
+    "Id": "2a1d4b6e-5c9f-4a3b-9c9a-1b7de36ea781",
+    "Name": "Chemistry",
+    "CreditHours": 3,
+    "Description": "An introduction to chemical reactions, organic chemistry, and periodic elements."
+  },
+  {
+    "Id": "a1e3f76b-4d5c-48bf-9f4a-7d2ca93de4fa",
+    "Name": "History",
+    "CreditHours": 2,
+    "Description": "A subject that covers world history, focusing on significant historical events."
+  },
+  {
+    "Id": "e7c5d62a-8b1f-4d6b-93fa-2a7be49fc18d",
+    "Name": "Computer Science",
+    "CreditHours": 3,
+    "Description": "A subject that teaches the fundamentals of programming, algorithms, and data structures."
+  }
+]
