@@ -17,7 +17,7 @@ namespace School.Services.Mapping.Dtos.AuthDtos
         public string DisplayName { get; set; }
         [Required]
         [Phone]
-        [RegularExpression(@"^(01[0-9]{9}|2[0-9]{8})$", ErrorMessage = "Not Valid Number")]
+        [RegularExpression(@"^(010|015|011)[0-9]{8}$", ErrorMessage = "Not Valid Number")]
         public string PhoneNumber { get; set; }
     }
 }

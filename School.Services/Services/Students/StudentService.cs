@@ -55,7 +55,7 @@ namespace School.Services.Services.Students
             if (result != 1)
                 throw new Exception("Delete Failed please Try again Later ");
 
-           return $"{studentToRemove.FirstName + studentToRemove.LastName} deleted successfully";
+           return $"succeeded";
         }
 
         public async Task<IEnumerable<StudentDto>> GetAllStudentsAsync(StudentSpecification input)

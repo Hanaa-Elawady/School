@@ -32,6 +32,6 @@ namespace School.Web.Controllers
 
         [HttpDelete]
         public async Task<ActionResult<string>> DeleteSubject(Guid subjectId)
-        => Ok(await _subjectService.DeleteSubject(subjectId));
+        => Ok(new{message = await _subjectService.DeleteSubject(subjectId)});
     }
 }

@@ -1,6 +1,3 @@
-
-using Microsoft.EntityFrameworkCore;
-using School.Data.Contexts;
 using School.Web.Extensions;
 using School.Web.Helper;
 using School.Web.Helper.MiddleWares;
@@ -20,11 +17,15 @@ namespace School.Web
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerDocumentation();
 
-            builder.Services.AddCors(options => options.AddPolicy("CorsPolicy", policy =>
+            builder.Services.AddCors(options =>
             {
-                policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("http:localhost:4200", "http://localhost:36496");
-
-            }));
+                options.AddPolicy("CorsPolicy", policy =>
+                {
+                    policy.AllowAnyHeader()
+                          .AllowAnyMethod()
+                          .WithOrigins("http://localhost:4200", "http://localhost:36496");
+                });
+            });
 
             var app = builder.Build();
             await ApplySeeding.ApplySeedingAsync(app);

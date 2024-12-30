@@ -36,7 +36,7 @@ namespace School.Services.Services.Subjects
             if (result != 1)
                 throw new Exception("Delete Failed please Try again Later ");
 
-            return $"{subjectToRemove.Name} subject deleted successfully";
+            return $"succeeded";
         }
 
         public async Task<IEnumerable<SubjectDto>> GetAllSubjectsAsync()
