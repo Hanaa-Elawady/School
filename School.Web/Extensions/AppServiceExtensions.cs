@@ -22,10 +22,6 @@ namespace School.Web.Extensions
             {
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
             });
-            services.AddIdentity<AppUser, IdentityRole>()
-                .AddEntityFrameworkStores<SchoolDbContext>()
-                .AddDefaultTokenProviders();
-
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<ITokenService,TokenService>();

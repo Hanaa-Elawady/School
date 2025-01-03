@@ -1,11 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using School.Repository.Specifications.StudentSpecifications;
 using School.Services.Mapping.Dtos.Students;
 using School.Services.Services.Students;
 
 namespace School.Web.Controllers
 {
-
+    [Authorize]
     public class StudentController : BaseController
     {
         private readonly IStudentService _studentService;

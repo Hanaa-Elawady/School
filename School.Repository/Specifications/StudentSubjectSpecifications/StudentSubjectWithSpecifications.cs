@@ -12,7 +12,7 @@ namespace School.Repository.Specifications.StudentSubjectSpecifications
             )
         {
             
-            AddInclude(x => x.Subject.Name);
+            AddInclude(x => x.Subject);
             AddInclude(x => x.Student);
         }
     }

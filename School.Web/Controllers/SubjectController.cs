@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using School.Services.Mapping.Dtos.Subjects;
 using School.Services.Services.Subjects;
 
 namespace School.Web.Controllers
 {
+        [Authorize]
     public class SubjectController : BaseController
     {
 

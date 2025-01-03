@@ -13,8 +13,10 @@ namespace School.Web
             builder.Services.AddControllers();
 
             builder.Services.AddApplicationService(builder.Configuration);
+            builder.Services.AddIdentityServices(builder.Configuration);
 
             builder.Services.AddEndpointsApiExplorer();
+
             builder.Services.AddSwaggerDocumentation();
 
             builder.Services.AddCors(options =>
@@ -23,7 +25,7 @@ namespace School.Web
                 {
                     policy.AllowAnyHeader()
                           .AllowAnyMethod()
-                          .WithOrigins("http://localhost:4200", "http://localhost:36496");
+                          .WithOrigins("http://localhost:4200", "https://localhost:7110/");
                 });
             });
 
